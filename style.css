@@ -1,0 +1,198 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-family: Quatro;
+    margin: 0 12%;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.container {
+    border: 3px solid #ad67ba;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    margin: 30px auto;
+    min-height: 110px;
+}
+
+.charcoal {
+    background-color: #696969;
+    color: #ffffff;
+    margin-right: 40px; 
+    text-transform: uppercase; 
+}
+
+.faded-periwinkle {
+    background-color: 	#90a6c3;
+    color: #000000;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+.light-moss-green {
+    background-color: 	#9bc390;
+    color: #ffffff;   
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+.dusty-rose {
+    background-color: 	#c3909d;
+    color: #000000;   
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.le-havre {
+    font-family: 'Le Havre', sans-serif;
+}
+
+.quatro {
+    font-family: 'Quatro', sans-serif ;
+}
+
+.odisseia {
+    font-family: 'Odisseia', monospace;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Quatro', sans-serif;
+}
+
+.text-panel:h2 {
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Odisseia', monospace;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Le Havre', sans-serif;
+}
+
+.button-panel {
+    display: inline;
+    width: 35%;
+    text-align: center;
+    margin: 30px auto;
+    min-height: 80px;  
+}
+
+.click-me {
+    background-color: #90A6C3;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.hover {
+    background-color: #9BC390;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.active {
+    background-color: #c3909d;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+.connect {
+    background-color: #5d9ef4;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    width: 150px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
